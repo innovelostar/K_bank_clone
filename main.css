@@ -1,3 +1,107 @@
-h1 {
-    color: blue;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding-bottom: 5px;
+    background: white;
+    box-shadow: 10px gray;
+}
+
+.container-left {
+    padding-left: 60px;
+    padding-right: 38%;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.container-right {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.manu {
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.manu .item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+}
+
+.doc {
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background:#fade11;
+    border-radius: 30px;
+}
+
+.sec-1 {
+    padding: 600px;
+    background: #fade11;
+}
+
+.sec-2 {
+    padding: 600px;
+    background: white;
+}
+
+.fade-out {
+    padding: 20px;
+    background:#c2c6b3;
+}
+
+.sec-3 {
+    padding: 600px;
+    background: white;
+}
+
+.sec-4 {
+    padding: 600px;
+    background: white;
+}
+
+.sec-5 {
+    padding: 600px;
+    background: white;
+}
+
+.sec-6 {
+    padding: 600px;
+    background: white;
+}
+
+.sec-7 {
+    padding: 600px;
+    background: blue;
+}
+
+.sec-8 {
+    padding: 600px;
+    background: white;
+}
+
+.sec-9 {
+    padding: 600px;
+    background: #c2c6b3;
+}
+
+.bottom {
+    padding: 110px;
+    opacity: 0.4;
+    background: gray;
 }

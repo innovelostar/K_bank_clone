@@ -1,10 +1,12 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Yoon 윤고딕';
 }
 
-.header {
+.nav {
     position: fixed;
+    justify-content: center;
     top: 0;
     width: 100%;
     display: flex;
@@ -15,7 +17,7 @@ body {
 
 .container-left {
     padding-left: 60px;
-    padding-right: 38%;
+    padding-right: 30%;
     padding-top: 30px;
     padding-bottom: 25px;
 }
@@ -35,7 +37,7 @@ body {
     font-size: 20px;
 }
 
-.manu .item {
+.item {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 40px;
@@ -46,15 +48,55 @@ body {
     padding-right: 23px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background:#fade11;
+    background:#fede22;
     border-radius: 30px;
 }
 
 .sec-1 {
-    padding: 600px;
-    background: #fade11;
+    display: flex;
+    background-image: url(./main-bg2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
+.Box-1 {
+    padding-top: 300px;
+    padding-bottom: 500px;
+    padding-left: 250px;
+}
+
+.Box-1 h1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 35px;
+}
+
+.link {
+    display: flex;
+    padding: 20px 0px 200px 0px ;
+    font-family: dotum,sans-serif;
+}
+
+.google {
+    display: block;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+}
+
+.Apple {
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+}
+
+.sel-1 {
+    padding-left: 15px;
+}
+.sel-1 {
+    padding-right: 15px;
+}
 .sec-2 {
     padding: 600px;
     background: white;

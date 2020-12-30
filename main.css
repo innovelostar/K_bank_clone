@@ -54,7 +54,7 @@ body {
   padding-top: 12px;
   padding-bottom: 12px;
   background:#fede22;
-  border-radius: 30px;
+  border-radius: 34px;
 }
 
 .navHide {
@@ -74,7 +74,7 @@ body {
   padding-top: 300px;
   padding-bottom: 450px;
   padding-left: 200px;
-  font-family: inherit;
+  font-family: 'Yoon 윤고딕';
 }
 
 .Box-1 h1 {
@@ -130,7 +130,6 @@ body {
   padding: 450px;
   background: white;
   position: relative;
-  border: 4px dashed blue;
 }
 
 .sendIMG  {
@@ -143,11 +142,11 @@ body {
   position:absolute;
   top: 300px;
   right: 230px;
-  font-family: inherit;
+    font-family: 'Yoon 윤고딕';
 }
 
 .desc-2  h1 {
-  font-size: 30px;
+  font-size: 34px;
 }
 
 .sec-2-button {
@@ -164,49 +163,330 @@ body {
   right: 45%;
 }
 
-
 .fade-out {
   padding: 20px;
   background:#c2c6b3;
 }
 
 .sec-3 {
-  padding: 600px;
+  position: relative;
+  padding: 500px;
   background: white;
+}
+
+.sec-3-box-1 {
+  position: absolute;
+  top: 25%;
+  left: 13%;
+  font-family: 'Yoon 윤고딕';
+}
+
+.sec-3-button-set {
+  display: flex;
+}
+
+.sec-3-button-1 {
+  background: lightgray;
+  padding: 15px  30px  15px  30px;
+  margin: 10px;
+  margin-left: 0px;
+  border-radius: 8px;
+}
+.sec-3-button-2 {
+  background: lightgray;
+  padding: 15px  30px  15px  30px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.sec-3-img {
+  position: absolute;
+  top: 5%;
+  right: 12%;
+}
+
+.sec-3-content h1 {
+  font-size: 34px;
+}
+.sec-3-img2 {
+  position: absolute;
+  top: 120%;
 }
 
 .sec-4 {
-  padding: 600px;
+  position: relative;
+  padding: 450px;
   background: white;
+}
+
+.sec-4-img {
+  position: absolute;
+  top: 110px;
+  left: 230px;
+}
+
+.sec-4-box-1 {
+  position:absolute;
+  top: 300px;
+  right: 230px;
+  font-family: 'Yoon 윤고딕';
+}
+
+.sec-4-content h1 {
+  font-size: 34px;
+}
+
+.sec-4-button-set {
+  background: lightgray;
+  width: 180px;
+  padding: 20px 40px 20px 40px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.sec-4-button-1 {
+  margin-left: 25%;
 }
 
 .sec-5 {
-  padding: 600px;
+  position: relative;
+  padding: 400px;
   background: white;
+}
+
+.sec-5-img {
+  position: absolute;
+  top: 160px;
+  right: 230px;
+}
+
+.sec-5-box-1 {
+  position:absolute;
+  top: 270px;
+  left: 320px;
+  font-family: 'Yoon 윤고딕';
+}
+
+.sec-5-content h1{
+  font-size: 34px;
+}
+
+.sec-5-button-set {
+  background: lightgray;
+  width: 180px;
+  padding: 20px 40px 20px 40px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.sec-5-button-1 {
+  margin-left: 25%;
 }
 
 .sec-6 {
-  padding: 600px;
+  position: relative;
+  padding: 500px;
   background: white;
 }
 
+.sec-6-img {
+  position: absolute;
+  top: 30px;
+  left: 230px;
+}
+
+.sec-6-box-1 {
+  position:absolute;
+  top: 250px;
+  right: 300px;
+  font-family: 'Yoon 윤고딕';
+}
+
+.sec-6-content h1 {
+  font-size: 34px;
+}
+
+.sec-6-button-set {
+  background: lightgray;
+  width: 180px;
+  padding: 20px 40px 20px 40px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.sec-6-button-1 {
+  margin-left: 25%;
+}
+
+
 .sec-7 {
-  padding: 600px;
-  background: blue;
+  position: relative;
+  padding: 450px;
+  background: lightblue;
+}
+
+.sec-7-box-1 {
+  position: absolute;
+  top: 140px;
+  right: 25%;
+  border: 4px deshed red;
+}
+
+.sec-7-text-content h1{
+  font-size: 40px;
+}
+.sec-7-text-content p{
+ margin: 5px 10px 20px 160px;
+}
+.sec-7-button-set {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 30px;
+  justify-content: space-around;
+  width: 660px;
+}
+
+.sec-7-button-1 {
+  padding: 15px;
+  background: lightgray;
+  border-radius: 10px;
+}
+.sec-7-button-2 {
+  padding: 15px;
+  background: lightgray;
+  border-radius: 10px;
+}
+.sec-7-button-3 {
+  padding: 15px;
+  background: lightgray;
+  border-radius: 10px;
+}
+.sec-7-button-4 {
+  padding: 15px;
+  background: lightgray;
+  border-radius: 10px;
+}
+
+.sec-7-img {
+  position: absolute;
+  top:41.75%;
+  left: 40%;
 }
 
 .sec-8 {
-  padding: 600px;
+  position: relative;
+  padding: 425px;
   background: white;
 }
 
+.sec-8-box-1 {
+  position: absolute;
+  top: 10%;
+  right: 31.5%;
+  box-sizing: border-box;
+  align-items: center;
+}
+.sec-8-text-content h1{
+  text-align: center;
+  font-size: 40px;
+  box-sizing: border-box;
+}
+.sec-8-text-content p{
+  text-align: center;
+}
+.sec-8-button-set {
+  margin-left: 215px;
+  margin-top: 30px;
+  width: 230px;
+}
+
+.sec-8-button-1 {
+  padding: 15px;
+  background: lightgray;
+  border-radius: 10px;
+}
+
+.sec-8-img {
+  position: absolute;
+  top: 50%;
+  left: 45.25%;
+}
+
 .sec-9 {
-  padding: 600px;
-  background: #c2c6b3;
+  position: relative;
+  padding: 500px;
+  background: rgb(249, 249, 249);
+}
+
+.sec-9-text-content {
+  text-align: center;
+  position: absolute;
+  font-size: 28px;
+  box-sizing: border-box;
+  top: 15%;
+  right: 37.5%;
+}
+
+.sec-9-img {
+  position: absolute;
+  top: 48%;
+  right: 23%;
+}
+
+.divi {
+  position: absolute;
+  top: 36%;
+  right: 46.5%;
+  padding: 55px;
+  border-top: 2px solid black;
+}
+
+.sec-9-content-box {
+  display: flex;
+  position: absolute;
+  top: 76%;
+  right: 23%;
+  font-size: 14px;
+}
+
+.sec-9-text-box1 {
+  margin: 20px;
+}
+
+.sec-9-text-box2 {
+  margin: 20px 200px 20px 30px;
+}
+
+.sec-9-text-box3 {
+  margin: 10px;
 }
 
 .bottom {
-  padding: 110px;
+  padding: 40px;
   opacity: 0.4;
-  background: gray;
+  background: rgb(220, 220, 220);
+}
+
+
+.bottom-menu {
+  display: flex;
+  margin: 15px 15px 15px 180px;
+  text-decoration-color: black;
+}
+
+.bottom-menu div {
+  padding: 10px;
+}
+
+.bottom-capy-menu {
+  display: flex;
+  margin: 15px 15px 15px 180px;
+}
+
+.bottom-capy-menu address {
+  padding: 10px;
+}
+
+.bottom-capy-menu div {
+  padding: 10px;
 }

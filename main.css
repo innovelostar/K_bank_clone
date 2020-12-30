@@ -1,149 +1,212 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Yoon 윤고딕';
+  margin: 0;
+  padding: 0;
+  font-family: 'Yoon 윤고딕';
 }
 
 .nav {
-    position: fixed;
-    justify-content: center;
-    top: 0;
-    width: 100%;
-    display: flex;
-    padding-bottom: 5px;
-    background: white;
-    box-shadow: 10px gray;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+  padding: 38px;
+  background: white;
+  position: relative;
+  position: fixed;
+  border-bottom: 2px solid lightgray;
+  z-index: 100;
 }
 
 .container-left {
-    padding-left: 60px;
-    padding-right: 30%;
-    padding-top: 30px;
-    padding-bottom: 25px;
+  position: absolute;
+  top: 18px;
+  left: 220px;
+  position: fixed;
 }
 
 .container-right {
-    padding-top: 20px;
-    padding-bottom: 10px;
+  position: absolute;
+  top: 14px;
+  right: 270px;
+  position: fixed;
 }
 
 .logo {
-    font-size: 30px;
+  position: absolute;
+  font-size: 25px;
 }
 
 .manu {
-    display: flex;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+  display: flex;
+  font-size: 15px;
 }
 
 .item {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 40px;
+  padding: 10px;
+  padding-top: 15px;
+  padding-right: 40px;
+  box-sizing: content-box;
 }
 
 .doc {
-    padding-left: 23px;
-    padding-right: 23px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background:#fede22;
-    border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background:#fede22;
+  border-radius: 30px;
+}
+
+.navHide {
+  padding: 38px;
+  border-color: red;
 }
 
 .sec-1 {
-    display: flex;
-    background-image: url(./main-bg2.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    overflow: hidden;
+  display: flex;
+  background-image: url(./main-bg2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .Box-1 {
-    padding-top: 300px;
-    padding-bottom: 500px;
-    padding-left: 250px;
+  padding-top: 300px;
+  padding-bottom: 450px;
+  padding-left: 200px;
+  font-family: inherit;
 }
 
 .Box-1 h1 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    font-size: 35px;
+  font-size: 35px;
+}
+
+.desc-1 {
+  padding-left: 60px;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .link {
-    display: flex;
-    padding: 20px 0px 200px 0px ;
-    font-family: dotum,sans-serif;
+  display: flex;
+  padding: 30px 60px 0px 45px ;
 }
 
 .google {
-    display: block;
-    padding: 20px;
-    background: white;
-    border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  padding:  17px 40px 17px 40px;
+  background: white;
+  border-radius: 15px;
 }
 
 .Apple {
-    padding: 20px;
-    background: white;
-    border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  padding:  17px 40px 17px 40px;
+  background: white;
+  border-radius: 15px;
+}
+
+.sec-1-img-1 {
+  padding-right: 12px;
+}
+
+.sec-1-img-2 {
+  padding-right: 12px;
 }
 
 .sel-1 {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 .sel-1 {
-    padding-right: 15px;
+  padding-right: 15px;
 }
+
 .sec-2 {
-    padding: 600px;
-    background: white;
+  padding: 450px;
+  background: white;
+  position: relative;
+  border: 4px dashed blue;
 }
+
+.sendIMG  {
+  position: absolute;
+  top: 110px;
+  left: 230px;
+}
+
+.Box-2 {
+  position:absolute;
+  top: 300px;
+  right: 230px;
+  font-family: inherit;
+}
+
+.desc-2  h1 {
+  font-size: 30px;
+}
+
+.sec-2-button {
+  padding: 15px 10px 15px 25px;
+  box-sizing: content-box;
+  background: lightgray;
+  border-radius: 8px;
+}
+
+.Box-3 {
+  position:absolute;
+  width: 230px;
+  top: 195px;
+  right: 45%;
+}
+
 
 .fade-out {
-    padding: 20px;
-    background:#c2c6b3;
+  padding: 20px;
+  background:#c2c6b3;
 }
 
 .sec-3 {
-    padding: 600px;
-    background: white;
+  padding: 600px;
+  background: white;
 }
 
 .sec-4 {
-    padding: 600px;
-    background: white;
+  padding: 600px;
+  background: white;
 }
 
 .sec-5 {
-    padding: 600px;
-    background: white;
+  padding: 600px;
+  background: white;
 }
 
 .sec-6 {
-    padding: 600px;
-    background: white;
+  padding: 600px;
+  background: white;
 }
 
 .sec-7 {
-    padding: 600px;
-    background: blue;
+  padding: 600px;
+  background: blue;
 }
 
 .sec-8 {
-    padding: 600px;
-    background: white;
+  padding: 600px;
+  background: white;
 }
 
 .sec-9 {
-    padding: 600px;
-    background: #c2c6b3;
+  padding: 600px;
+  background: #c2c6b3;
 }
 
 .bottom {
-    padding: 110px;
-    opacity: 0.4;
-    background: gray;
+  padding: 110px;
+  opacity: 0.4;
+  background: gray;
 }

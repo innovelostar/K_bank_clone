@@ -10,6 +10,20 @@ body {
     font-family: "Yoon 윤고딕";
 }
 
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .nav {
     background: white;
     position: fixed;
@@ -19,6 +33,7 @@ body {
     display: flex;
     justify-content: center;
     border-bottom: 1px solid rgb(194, 194, 194);
+    max-height: 80px;
 }
 
 .containerNav {
@@ -41,30 +56,47 @@ body {
 .manu .item {
     list-style: none;
     display: flex;
-    padding: 0px;
 }
 
 .manu .itemContent {
-    padding: 12px 20px 12px 20px;
+    padding: 12px 20px 29px 20px;
+}
+
+#item__1 {
     width: 64px;
+}
+
+#item__2 {
+    width: 64px;
+}
+
+#item__3 {
+    width: 64px;
+}
+
+#item__4 {
+    width: 48px;
 }
 
 .manu .submit {
     padding: 12px 15px 12px 15px;
+    margin-left: 10px;
     background: rgb(254, 222, 34);
     border-radius: 32px;
     width: 100px;
+    height: 26px;
 }
 
 .itemContent:hover {
     border-bottom: 2px solid black;
+    text-decoration: underline;
 }
 
 #item__1:hover + .item__1__nav {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 80px;
+    top: 81px;
     right: 0px;
     width: 100%;
     height: 300px;
@@ -75,7 +107,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 80px;
+    top: 81px;
     right: 0px;
     width: 100%;
     height: 300px;
@@ -94,12 +126,11 @@ body {
     display: none;
 }
 
-
 .item__2__nav:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 80px;
+    top: 81px;
     right: 0px;
     width: 100%;
     height: 400px;
@@ -109,7 +140,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 80px;
+    top: 81px;
     right: 0px;
     width: 100%;
     height: 400px;
@@ -127,68 +158,37 @@ body {
     display: none;
 }
 
-.item__2__nav:hover {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 63px;
-    right: -270px;
-    padding: 0px 460px 0px 460px;
-    background-color: white;
-}
-
 .item__3__nav:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 80px;
+    top: 81px;
     right: 0px;
     width: 100%;
     height: 400px;
     background-color: white;
-  }
-  
-  #item__3:hover + .item__3__nav {
+}
+
+#item__3:hover + .item__3__nav {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 80px;
+    top: 81px;
     right: 0px;
     width: 100%;
     height: 400px;
     background-color: white;
-  }
-  
-  .item__3__nav:hover {
-    display: flex;  
-    justify-content: center;
-    position: absolute;
-    top: 63px;
-    right: -270px;
-    padding: 0px 460px 0px 460px;
-    background-color: white;
-  }
-  
-  .item__3__nav ul {
+}
+.item__3__nav ul {
     text-align: center;
     width: 200px;
     list-style: none;
     padding: 20px auto 10px 0px;
     margin-top: 60px;
 }
-  .item__3__nav {
+.item__3__nav {
     display: none;
-  }
-  
-  .item__3__nav:hover {
-    display: flex;  
-    justify-content: center;
-    position: absolute;
-    top: 63px;
-    right: -270px;
-    padding: 0px 460px 0px 460px;
-    background-color: white;
-  }
+}
 
 .sectionMain {
     background: white;
@@ -516,11 +516,10 @@ body {
 .introContainer7 {
     position: relative;
     background: white;
-    height: 930px;
-    top: 2900px;
+    height: 1000px;
+    top: 2800px;
     display: flex;
     justify-content: center;
-    border: 2px dashed black;
 }
 
 .introBox7 {
@@ -528,7 +527,6 @@ body {
     top: 140px;
     display: inline;
     justify-content: center;
-    border: 2px dashed black;
 }
 
 .introBox7Content h1 {
@@ -550,6 +548,21 @@ body {
     border-radius: 10px;
     text-align: center;
     margin-left: 180px;
+}
+
+
+.cardSet {
+    position: relative;
+    top: 450px;
+    width: 1800px;
+    height: 440px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardSet img {
+    width: 280px;
+    height: 440px;
 }
 
 .introContainer8 {

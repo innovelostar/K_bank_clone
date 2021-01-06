@@ -24,6 +24,11 @@ a:hover {
     text-decoration: underline;
 }
 
+.introContentBottonBox6 div:hover {
+    color: white !important;
+    text-decoration: underline;
+}
+
 .nav {
     background: white;
     position: fixed;
